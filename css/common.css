@@ -29,6 +29,25 @@ body{
     margin:auto;
     background-color:var(--background-white);
 }
+h2{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-size:1rem;
+    text-align: justify;
+}
 .bg-orange{
     background-color: var(--international-orange-aerospace);
 }
