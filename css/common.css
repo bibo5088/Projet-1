@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Ubuntu');
 
+:root {
+    --international-orange-aerospace: #FF4E00;
+    --citron: #8EA604;
+    --orange-yellow: #8EA604;
+    --mariegold: #EC9F05;
+    --rust: #BF3100;
+
+    --text-black: rgba(0,0,0, 0.7);
+}
+
 * {
     box-sizing: border-box;
     font-family: "Ubuntu", sans-serif;
