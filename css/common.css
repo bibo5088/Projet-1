@@ -8,6 +8,7 @@
     --rust: #BF3100;
 
     --text-black: rgba(8, 4, 0, 0.7);
+    --background-white:rgba(255, 251, 247, 0);
 }
 
 * {
@@ -22,4 +23,36 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather", sans-serif;
+}
+body{
+    width:100%;
+    margin:auto;
+    background-color:var(--background-white);
+}
+.bg-orange{
+    background-color: var(--international-orange-aerospace);
+}
+.bg-citron{
+    background-color: var(--citron);
+}
+.bg-yellow{
+    background-color: var(--orange-yellow);
+}
+.bg-mariegold{
+    background-color: var(--mariegold);
+}
+.bg-rust{
+    background-color: var(--rust);
+}
+.main-container{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.content-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
