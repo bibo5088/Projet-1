@@ -3,11 +3,11 @@
 :root {
     --international-orange-aerospace: #FF4E00;
     --citron: #8EA604;
-    --orange-yellow: #8EA604;
+    --orange-yellow: #f5bb00;
     --mariegold: #EC9F05;
     --rust: #BF3100;
 
-    --text-black: rgba(0,0,0, 0.7);
+    --text-black: rgba(8, 4, 0, 0.7);
 }
 
 * {
