@@ -33,27 +33,32 @@ h2{
     font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 2.5rem;
 }
 h3{
     font-size: 1.75rem;
     font-weight: bold;
     text-align: center;
-    padding-top: 2.25rem;
-    padding-bottom: 1.75rem;
+    margin-top: 2.25rem;
+    margin-bottom: 1.75rem;
 }
 label{
     font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
-    padding-top: 1.25rem;
-    padding-bottom: 0.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
 }
 p{
     font-size:1rem;
     text-align: justify;
-    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+img{
+    width:70%;
+    height:150px;
+    margin:1.5rem auto;
 }
 .bg-orange{
     background-color: var(--international-orange-aerospace);
