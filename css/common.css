@@ -93,13 +93,13 @@ img{
     display:flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding: 4.75rem 1.25rem;
-    border: 0.25rem solid rgba(255, 255, 255, 0);
+    padding: 4.85rem 1.35rem;
+    border: 0.15rem solid rgba(255, 255, 255, 0);
 }
 /*sur les divs cliquables, il faut rajouter cette propriété : onclick="window.location.href='ADRESSE';"*/
 .clickable:hover{
     cursor: pointer;
-    border: 0.25rem solid rgba(8, 4, 0, 0.5);
+    border: 0.15rem groove rgba(8, 4, 0, 0.5);
 }
 @media only screen and (min-width: 961px) {
     html{
