@@ -89,17 +89,17 @@ img{
     background-color: var(--background-white);
 }
 .content-container{
-    width:100%;
+    width:97%;
     display:flex;
     justify-content: center;
     flex-flow: row wrap;
     padding: 4.85rem 1.35rem;
-    border: 0.15rem solid rgba(255, 255, 255, 0);
+    transition: width 0.7s ease-in-out;
 }
 /*sur les divs cliquables, il faut rajouter cette propriété : onclick="window.location.href='ADRESSE';"*/
 .clickable:hover{
     cursor: pointer;
-    border: 0.15rem groove rgba(8, 4, 0, 0.5);
+    width:100%;
 }
 @media only screen and (min-width: 961px) {
     html{
