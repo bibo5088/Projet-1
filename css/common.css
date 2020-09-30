@@ -12,6 +12,8 @@
   --body-background: rgba(255, 243, 232, 0.7);
 
   --header-background-image: url("/img/bar.jpg");
+  --navbar-background-strong: rgb(142, 166, 4, 0.8);
+  --navbar-background-weak: rgb(142, 166, 4, 0.2);
 }
 
 * {
