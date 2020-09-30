@@ -94,12 +94,12 @@ img{
     justify-content: center;
     flex-flow: row wrap;
     padding: 4.85rem 1.35rem;
-    transition: width 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 /*sur les divs cliquables, il faut rajouter cette propriété : onclick="window.location.href='ADRESSE';"*/
 .clickable:hover{
     cursor: pointer;
-    width:100%;
+    transform: scale(1.1);
 }
 @media only screen and (min-width: 961px) {
     html{
