@@ -1,20 +1,20 @@
-h2{
+.team-h2{
     width:100%;
     margin-bottom: 6rem;
 }
-.main-container{
+.team-main{
     justify-content: space-around;
 }
-.content-container{
+.team-content{
     width:40%;
     min-width:300px;
     border:0.2rem solid var(--text-black);
     margin-bottom: 3rem;
 }
-.content-container img{
+.team-content img{
     width : 100%;
 }
-button{
+.team-button{
     background-color: var(--citron);
     border: 0.1rem solid rgba(255, 255, 255, 0);
     color: var(--text-black);
@@ -23,7 +23,7 @@ button{
     text-decoration: none;
     display: inline-block;
 }
-button:hover{
+.team-button:hover{
     background-color: var(--body-background);
     border: 0.1rem solid var(--citron);
     cursor: pointer;
