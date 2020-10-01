@@ -1,6 +1,5 @@
 /* Header Banner */
 header {
-
   position: relative;
 
   display: flex;
@@ -18,8 +17,6 @@ header {
 }
 
 .header-title {
-
-  flex-grow: 1;
   padding: 1em;
   color: white;
   text-align: center;
@@ -29,6 +26,8 @@ header {
 
 @media only screen and (min-width: 961px) {
   .header-title {
+    flex-grow: 1;
+
     font-size: 5rem;
   }
 }
