@@ -1,108 +1,130 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Ubuntu");
 
 :root {
-    --international-orange-aerospace: #FF4E00;
-    --citron: #8EA604;
-    --orange-yellow: #f5bb00;
-    --mariegold: #EC9F05;
-    --rust: #BF3100;
+  --international-orange-aerospace: #ff4e00;
+  --citron: #8ea604;
+  --orange-yellow: #f5bb00;
+  --mariegold: #ec9f05;
+  --rust: #bf3100;
 
-    --text-black: rgba(8, 4, 0, 0.7);
-    --background-white:rgba(255, 251, 247, 0.7);
-    --body-background:rgba(255, 243, 232, 0.7);
+  --text-black: rgba(8, 4, 0, 0.7);
+  --background-white: rgba(255, 251, 247, 0.7);
+  --body-background: rgba(255, 243, 232, 0.7);
+
+  --header-background-image: url("/img/bar.jpg");
+  --navbar-background-strong: rgb(142, 166, 4, 0.8);
+  --navbar-background-weak: rgb(142, 166, 4, 0.2);
 }
 
 * {
-    box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Merriweather", sans-serif;
+html {
+  font-size: 12px;
 }
-html{
-    font-size: 12px;
+
+body {
+  width: 100%;
+  margin: auto;
+  background-color: var(--body-background);
 }
-body{
-    width:100%;
-    margin:auto;
-    background-color:var(--body-background);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", sans-serif;
 }
-h2{
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 3.5rem;
-    margin-bottom: 2.5rem;
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
 }
-h3{
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2.25rem;
-    margin-bottom: 1.75rem;
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.25rem;
+  margin-bottom: 1.75rem;
 }
-label{
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
+
+label {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
 }
-p{
-    font-size:1rem;
-    text-align: justify;
-    margin-bottom: 0.75rem;
-    line-height: 1.35rem;
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 0.75rem;
+  line-height: 1.35rem;
 }
-img{
-    width:70%;
-    height:150px;
-    margin:1.5rem auto;
+
+img {
+  width: 70%;
+  height: 150px;
+  margin: 1.5rem auto;
 }
-.bg-orange{
-    background-color: var(--international-orange-aerospace);
+
+.bg-orange {
+  background-color: var(--international-orange-aerospace);
 }
-.bg-citron{
-    background-color: var(--citron);
+
+.bg-citron {
+  background-color: var(--citron);
 }
-.bg-yellow{
-    background-color: var(--orange-yellow);
+
+.bg-yellow {
+  background-color: var(--orange-yellow);
 }
-.bg-mariegold{
-    background-color: var(--mariegold);
+
+.bg-mariegold {
+  background-color: var(--mariegold);
 }
-.bg-rust{
-    background-color: var(--rust);
+
+.bg-rust {
+  background-color: var(--rust);
 }
-.main-container{
-    width:100%;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: var(--background-white);
+
+.main-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: var(--background-white);
 }
-.content-container{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    padding: 5rem 1.5rem;
+
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 5rem 1.5rem;
 }
+
 @media only screen and (min-width: 961px) {
-    html{
-        font-size: 14px;
-    }
-    body{
-        max-width: 900px;
-    }
-    .content-container{
-        padding: 5rem;
-    }
+  html {
+    font-size: 14px;
   }
+  .content-container {
+    padding: 5rem;
+  }
+}
