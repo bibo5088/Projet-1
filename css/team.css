@@ -1,5 +1,6 @@
 h2{
     width:100%;
+    margin-bottom: 6rem;
 }
 .main-container{
     justify-content: space-around;
@@ -8,8 +9,22 @@ h2{
     width:40%;
     min-width:300px;
     border:0.2rem solid var(--text-black);
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .content-container img{
     width : 100%;
+}
+button{
+    background-color: var(--citron);
+    border: 0.1rem solid rgba(255, 255, 255, 0);
+    color: var(--text-black);
+    padding: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover{
+    background-color: var(--body-background);
+    border: 0.1rem solid var(--citron);
+    cursor: pointer;
 }
