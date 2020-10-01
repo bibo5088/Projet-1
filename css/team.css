@@ -1,0 +1,15 @@
+h2{
+    width:100%;
+}
+.main-container{
+    justify-content: space-around;
+}
+.content-container{
+    width:40%;
+    min-width:300px;
+    border:0.2rem solid var(--text-black);
+    margin-bottom: 2rem;
+}
+.content-container img{
+    width : 100%;
+}
