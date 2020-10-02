@@ -65,6 +65,7 @@ p{
     margin-bottom: 0.75rem;
     line-height: 1.35rem;
 }
+
 img{
     width:70%;
     height:150px;
@@ -114,37 +115,6 @@ img{
 .clickable:hover{
     cursor: pointer;
     transform: scale(1.1);
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 3.5rem;
-  margin-bottom: 2.5rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 2.25rem;
-  margin-bottom: 1.75rem;
-}
-
-label {
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1rem;
-  text-align: justify;
-  margin-bottom: 0.75rem;
-  line-height: 1.35rem;
 }
 
 img {
