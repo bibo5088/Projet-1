@@ -6,12 +6,10 @@ function unrollMenu() {
   const { height } = navList.getBoundingClientRect();
   navList.style.height = `0`;
 
-  //2 requestAnimationFrame to trigger transition properly
-  window.requestAnimationFrame(() => {
-    window.requestAnimationFrame(() => {
-      navList.style.height = `${height}px`;
-    });
-  });
+  //setTimeout instead of requestAnimationFrame because requestAnimationFrame is called before render and we need to change the style post render for the transition to work
+  setTimeout(() => {
+    navList.style.height = `${height}px`;
+  }, 0);
 }
 
 function rollMenu() {
