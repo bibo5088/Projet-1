@@ -125,37 +125,6 @@ img {
   transform: scale(1.1);
 }
 
-h2 {
-  margin-top: 3.5rem;
-  margin-bottom: 2.5rem;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-h3 {
-  margin-top: 2.25rem;
-  margin-bottom: 1.75rem;
-  font-size: 1.75rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-label {
-  margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-p {
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
-  line-height: 1.35rem;
-  text-align: justify;
-}
-
 img {
   width: 70%;
   height: 150px;
