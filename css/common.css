@@ -17,134 +17,143 @@
 }
 
 * {
-    box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Merriweather", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", sans-serif;
 }
-html{
-    font-size: 12px;
+html {
+  font-size: 12px;
 }
-body{
-    width:100%;
-    margin:auto;
-    background-color:var(--body-background);
-    color: var(--text-black);
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  color: var(--text-black);
+  background-color: var(--body-background);
 }
-h2{
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 3.5rem;
-    margin-bottom: 2.5rem;
-}
-h3{
-    font-size: 1.75rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 2.25rem;
-    margin-bottom: 1.75rem;
-}
-label{
-    font-size: 1.25rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 1.25rem;
-    margin-bottom: 0.5rem;
-}
-p{
-    font-size:1rem;
-    text-align: justify;
-    margin-bottom: 0.75rem;
-    line-height: 1.35rem;
-}
-img{
-    width:70%;
-    height:150px;
-    margin:1.5rem auto;
-}
-/* ci-dessous les classes pour mettre les couleurs de fond*/
-.bg-orange{
-    background-color: var(--international-orange-aerospace);
-}
-.bg-citron{
-    background-color: var(--citron);
-}
-.bg-yellow{
-    background-color: var(--orange-yellow);
-}
-.bg-mariegold{
-    background-color: var(--mariegold);
-}
-.bg-rust{
-    background-color: var(--rust);
-}
-/*ci dessous la classe pour contenir tout le contenu qui est entre le header et le footer*/
-.main-container{
-    width:100%;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color: var(--background-white);
-}
-/*ci dessous la classe pour les liens qui contiennent un block*/
-.block-link{
-    text-decoration:none;
-}
-.block-link:visited{
-    color: var(--text-black);
-}
-/*ci dessous la classe pour contenir un block de contenu et celle qui se rajoute pour ceux qui sont dans un lien*/
-.content-container{
-    width:97%;
-    display:flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    padding: 4.85rem 1.35rem;
-    transition: all 0.7s ease-in-out;
-}
-.clickable:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 3.5rem;
-  margin-bottom: 2.5rem;
 }
-
 h3 {
+  margin-top: 2.25rem;
+  margin-bottom: 1.75rem;
   font-size: 1.75rem;
   font-weight: bold;
   text-align: center;
-  margin-top: 2.25rem;
-  margin-bottom: 1.75rem;
 }
-
 label {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
+}
+p {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  text-align: justify;
+}
+img {
+  width: 70%;
+  height: 150px;
+  margin: 1.5rem auto;
+}
+/* ci-dessous les classes pour mettre les couleurs de fond*/
+.bg-orange {
+  background-color: var(--international-orange-aerospace);
+}
+.bg-citron {
+  background-color: var(--citron);
+}
+.bg-yellow {
+  background-color: var(--orange-yellow);
+}
+.bg-mariegold {
+  background-color: var(--mariegold);
+}
+.bg-rust {
+  background-color: var(--rust);
+}
+/*ci dessous la classe pour contenir tout le contenu qui est entre le header et le footer*/
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  background-color: var(--background-white);
+}
+/*ci dessous la classe pour les liens qui contiennent un block*/
+.block-link {
+  text-decoration: none;
+}
+.block-link:visited {
+  color: var(--text-black);
+}
+/*ci dessous la classe pour contenir un block de contenu et celle qui se rajoute pour ceux qui sont dans un lien*/
+.content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 97%;
+  padding: 4.85rem 1.35rem;
+  transition: all 0.7s ease-in-out;
+}
+.clickable:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+h2 {
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 2.25rem;
+  margin-bottom: 1.75rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 p {
-  font-size: 1rem;
-  text-align: justify;
   margin-bottom: 0.75rem;
+  font-size: 1rem;
   line-height: 1.35rem;
+  text-align: justify;
 }
 
 img {
@@ -174,30 +183,31 @@ img {
 }
 
 .main-container {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+  justify-content: center;
   width: 100%;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
   background-color: var(--background-white);
 }
 
 .content-container {
-  width: 100%;
   display: flex;
-  justify-content: center;
   flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
   padding: 5rem 1.5rem;
 }
 
 @media only screen and (min-width: 961px) {
-    html{
-        font-size: 14px;
-    }
-    .main-container{
-        max-width: 900px;
-    }
-    .content-container{
-        padding: 5rem;
-    }
+  html {
+    font-size: 14px;
+  }
+  .main-container {
+    max-width: 900px;
+  }
+  .content-container {
+    padding: 5rem;
+  }
 }
