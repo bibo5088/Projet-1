@@ -2,9 +2,8 @@
 form {
   background-color: #fff;
   padding: 1em;
-  width:150px;
   margin: 0 auto;
-  width: 400px;
+  max-width: 400px;
   border: 1px solid #CCC;
   /*encadré pour voir les limites du formulaire*/
   border-radius: 1em;
@@ -16,8 +15,8 @@ p {
 
 label{
   margin-top: 20px;
-  display: inline-block;
-  width: 500px;
+  display: block;
+  /* width: ; */
   text-align: left;
 }
 
@@ -43,6 +42,7 @@ textarea {
 }
 
 .button {
+  display: flex;
   
 }
 
