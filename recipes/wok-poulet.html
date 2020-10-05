@@ -1,23 +1,88 @@
-<ul>
-    <li>Filet de poulet coupé en morceaux (peut être remplacée par du tofu)</li>
-    <li>Carottes râpées ou coupées en petits morceaux</li>
-    <li>Courgettes en lamelles ou coupées en petits morceaux</li>
-    <li>Haricots mungo (pousses de soja)</li>
-    <li>Petits pois</li>
-    <li>Cacahuètes concassées</li>
-    <li>Sauce soja</li>
-    <li>Huile de sésame</li>
-    <li>Nouilles ou Riz</li>
-</ul>
+<!DOCTYPE html>
+<html lang="fr">
 
-<p>Dans une poêle à grand bord ou poêle wok faites chauffer l'huile de sésame. Lorsque l'huile est chaude ajoutez les
-    morceaux de poulet et laissez doré.</p>
-    
-<p>Ajoutez ensuite les légumes ainsi que les cacahuètes et bien mélangez avec le poulet. <strong>Ne pas couvrir la poêle
-        pour éviter que les
-        légumes deviennent mous.</strong></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJET 1</title>
 
-<p>Pendant que les légumes cuisent, faites cuire vos nouilles ou riz dans une autre casserole.</p>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-<p>Ajoutez ensuite les nouilles ou riz égoutté dans le wok et mélanger bien. Enfin rajouter la sauce soja et continuez
-    de mélanger. <strong>Goûtez pour ne faire ni pas assez ni trop salée.</strong></p>
+<body>
+  <header>
+    <h1 class="header-title">Les papilles voyageuses</h1>
+
+    <nav>
+      <button id="nav-button" class="nav-button" aria-label="Open the navbar"><span class="icon-menu"
+          aria-hidden="true"></span></button>
+      <ul id="nav-list" class="nav-list">
+        <li class="nav-list-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Articles</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Cuisine blabla</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">À propos</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Ici commence la recette-->
+
+  <h2>Délicieux wok au poulet et aux légumes</h2>
+  <img src="img/julietta-watson-brPldWJ0jBQ-unsplash.jpg" id="wok-recipe-pic"
+    alt="Photo de wok au poulet et aux légumes" />
+  <section class="recipe-content">
+
+    <div class="middle-wrapper">
+      <article class="recipe-ingredients">
+        <h3 id="ingredients">Les ingrédients :</h3>
+        <ul>
+          <li>Filet de poulet coupé en morceaux (peut être remplacé par du tofu)</li>
+          <li>Carottes râpées ou coupées en petits morceaux</li>
+          <li>Courgettes en lamelles ou coupées en petits morceaux</li>
+          <li>Haricots mungo (pousses de soja)</li>
+          <li>Petits pois</li>
+          <li>Cacahuètes concassées</li>
+          <li>Sauce soja</li>
+          <li>Huile de sésame</li>
+          <li>Nouilles ou Riz</li>
+        </ul>
+      </article>
+      <article class="wine-advices">
+        <p>Le conseil du sommelier :<br>
+          Ce plat s'accorderait très bien avec un vin fruité ou je ne sais pas lequel ?</p>
+      </article>
+    </div>
+
+    <article class="recipe-text">
+      <p>Dans une poêle à grand bords (style wok), faites chauffer l'huile de sésame. Lorsque l'huile est chaude,
+        ajoutez les morceaux de poulet et laissez dorer.</p>
+      <p>Ajoutez ensuite les légumes ainsi que les cacahuètes et mélangez avec le poulet. <strong>Ne pas couvrir la
+          poêle pour éviter que les légumes deviennent mous.</strong></p>
+      <p>Pendant que les légumes cuisent, faites cuire vos nouilles ou votre riz dans une autre casserole.</p>
+      <p>Ajoutez ensuite les nouilles ou le riz égoutté dans le wok et mélangez bien. Rajoutez enfin la sauce soja et
+        continuez de mélanger. <strong>Goûtez la préparation pour pouvoir doser le sel.</strong></p>
+    </article>
+  </section>
+  <!--Ici se termine la recette-->
+
+  <!--Ici commence le footer-->
+  <footer>
+    <ul id="links" class="footer-list">
+      <li class="footer-list-item"><a class="footer-link" href="">Accueil</a></li>
+      <li class="footer-list-item"><a class="footer-link" href="">Contact</a></li>
+      <li class="footer-list-item"><a class="footer-link" href="">Qui sommes-nous ?</a></li>
+    </ul>
+    <ul id="social-medias" class="footer-list">
+      <li class="footer-list-item"><a class="footer-link" href=""><span class="icon-facebook2"></span></a></li>
+      <li class="footer-list-item"><a class="footer-link" href=""><span class="icon-twitter"></span></a></li>
+      <li class="footer-list-item"><a class="footer-link" href=""><span class="icon-instagram"></span></a></li>
+    </ul>
+  </footer>
+
+  <!--Ici se termine le footer-->
+
+  <script src="js/navbar.js"></script>
+</body>
+
+</html>

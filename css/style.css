@@ -2,8 +2,8 @@
 @import 'header.css';
 @import 'footer.css';
 @import 'team.css';
-@import 'firstRecipe.css';
-@import 'form.css';
 @import 'recipe.css';
+@import 'form.css';
+@import 'recipe-preview.css';
 
 @import 'iconmoon.css';
