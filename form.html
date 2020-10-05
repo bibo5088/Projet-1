@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROJET 1</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1 class="header-title">Les papilles voyageuses</h1>
+
+    <nav>
+
+      <button id="nav-button" class="nav-button" aria-label="Open the navbar"><span class="icon-menu" aria-hidden="true"></span></button>
+      <ul id="nav-list" class="nav-list">
+        <li class="nav-list-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Articles</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Cuisine blabla</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">À propos</a></li>
+        <li class="nav-list-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <div>
+        <label for="name">Nom*</label>
+        <input type="text" id="nom" name="nom" />
+      </div>
+      <div>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" />
+      </div>
+      <div>
+        <label for="name">Titre*</label>
+        <input type="text" id="titre" name="titre">
+      </div>
+      <div>
+        <label for="message">Message*</label>
+        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Envoyer</button>
+      </div>
+      <p>Les informations saisies sur ce formulaire seront communiquées au propriétaire de ce blog via mail et son
+        administration.<br /> En savoir plus sur Overblog et la protection des données personnelles,<strong> cliquez ici.</strong></p>
+      <hr />
+      <label for="name">RECHERCHE</label>
+      <div class="button">
+        <input type="text" placeholder="Recherche...">
+        <button type="submit">OK</label>
+      </div>
+      <label for="name">NEWSLETTER</label>
+      <input type="text" id="newsletter" name="newsletter" placeholder="Saisissez votre email ici">
+      <div class="button">
+        <button type="submit">S'abonner</label>
+      </div>
+    </form>
+  </section>
+  
+
+  <script src="js/navbar.js"></script>
+</body>
+
+</html>
