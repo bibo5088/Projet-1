@@ -1,0 +1,49 @@
+
+form {
+  background-color: #fff;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid #CCC;
+  /*encadré pour voir les limites du formulaire*/
+  border-radius: 1em;
+}
+
+p {
+  width: 280px;
+}
+
+label{
+  margin-top: 20px;
+  display: block;
+  /* width: ; */
+  text-align: left;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  background-color: #fff;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 1px 1px 2px #C0C0C0 inset;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#contactForm{
+  text-align: left;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  display: flex;
+  
+}
+
+@media only screen and (min-width:961px){}
