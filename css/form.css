@@ -9,7 +9,7 @@ form {
   border-radius: 1em;
 }
 
-p {
+form p {
   width: 280px;
 }
 
@@ -43,7 +43,7 @@ textarea {
 
 .button {
   display: flex;
-  
+  cursor: pointer;
 }
 
 @media only screen and (min-width:961px){}

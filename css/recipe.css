@@ -1,0 +1,96 @@
+.recipes {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.recipe,
+.recipe-long {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+
+  color: var(--text-black);
+  cursor: pointer;
+
+  transition: color 0.25s ease;
+}
+
+.recipe:hover {
+  color: var(--international-orange-aerospace);
+}
+
+.recipe-link {
+  display: contents;
+
+  color: inherit;
+  text-decoration: none;
+}
+
+.recipe-image {
+  object-fit: cover;
+
+  transition: filter 0.25s ease;
+}
+
+.recipe-link:hover .recipe-image {
+  filter: brightness(1.1);
+}
+
+.recipe-hr {
+  display: none;
+}
+
+@media only screen and (min-width: 961px) {
+  .recipes {
+    flex-flow: row wrap;
+  }
+
+  .recipe {
+    width: 50%;
+  }
+
+  .recipe-description {
+    order: 1;
+  }
+
+  .recipe-hr {
+    display: block;
+    width: 90%;
+
+    height: 5px;
+    background-color: var(--text-black);
+
+    border: none;
+  }
+
+  /* recipe long for desktop */
+  .recipe-long {
+    display: grid;
+    grid-template-areas:
+      "title title"
+      "image description";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 2fr;
+
+    align-items: center;
+
+    width: 100%;
+  }
+
+  .recipe-long .recipe-title {
+    grid-area: title;
+    
+    text-align: left;
+  }
+
+  .recipe-long .recipe-image {
+    grid-area: image;
+    order: unset;
+  }
+
+  .recipe-long .recipe-description {
+    grid-area: description;
+  }
+}
