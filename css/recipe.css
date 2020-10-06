@@ -31,6 +31,18 @@
     border-color: var(--international-orange-aerospace);
 }
 
+.intro-america {
+    border-color: var(--orange-yellow);
+}
+
+.intro-europe {
+    border-color: var(--rust);
+}
+
+.intro-africa {
+    border-color: var(--mariegold);
+}
+
 @media only screen and (min-width: 961px) {   
     .asian-intro {
      margin-right: 10%;
@@ -75,6 +87,18 @@
 
 .ingredients-asia {
     background-color: var(--international-orange-aerospace);
+}
+
+.ingredients-america {
+    background-color: var(--orange-yellow);
+}
+
+.ingredients-europe {
+    background-color: var(--rust);
+}
+
+.ingredients-africa {
+    background-color: var(--mariegold);
 }
 
 @media only screen and (min-width: 961px) {
@@ -122,6 +146,18 @@
 
 .recipe-asia {
     background-color: var(--international-orange-aerospace);
+}
+
+.recipe-america {
+    background-color: var(--orange-yellow);
+}
+
+.recipe-europe {
+    background-color: var(--rust);
+}
+
+.recipe-africa {
+    background-color: var(--mariegold);
 }
 
 .recipe-card-content {
