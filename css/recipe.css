@@ -12,24 +12,24 @@
 }
 
 @media only screen and (min-width: 961px) {
-
     .recipe-pic {
         max-width: 50%;
     }
 }
 
-.asian-intro {
+.intro {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 2.5em;
     border:0.2rem solid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0.3rem;
+}     
+
+.intro-asia {
     border-color: var(--international-orange-aerospace);
-    border-radius: 0.3rem; 
-    -moz-box-shadow:2px 2px 5px var(--international-orange-aerospace);
-    -webkit-box-shadow:2px 2px 5px var(--international-orange-aerospace);
-    box-shadow:2px 2px 5px var(--international-orange-aerospace);
-    }
+}
 
 @media only screen and (min-width: 961px) {   
     .asian-intro {
@@ -45,7 +45,6 @@
 }
 
 @media only screen and (min-width: 961px) {
-    
     .recipe-content .middle-wrapper {
         display: flex;
         justify-content: space-around;
@@ -59,7 +58,7 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 30px;
-    box-shadow: 0px 3px 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .recipe-content .middle-wrapper .ingredients-card-content {
@@ -70,16 +69,18 @@
 .recipe-content .middle-wrapper .ingredients-card-header {
     padding: 15px;
     font-size: 1.25rem;
-    background-color: var(--international-orange-aerospace);
     margin-block-start: 0em;
     margin-block-end: 0.3em;
+}
+
+.ingredients-asia {
+    background-color: var(--international-orange-aerospace);
 }
 
 @media only screen and (min-width: 961px) {
     .ingredients-card {
         max-height: 80%;
         margin: 5%;
-
     }
 }
 
@@ -94,9 +95,7 @@
     border:0.2rem solid;
     border-color: var(--rust);
     border-radius: 0.3rem; 
-    -moz-box-shadow:2px 2px 2px var(--rust);
-    -webkit-box-shadow:2px 2px 2px var(--rust);
-    box-shadow:2px 2px 5px var(--rust);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 @media only screen and (min-width: 961px) {
@@ -111,15 +110,18 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 30px;
-    box-shadow: 0px 3px 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .recipe-card-header {
     padding: 15px;
     font-size: 1.25rem;
-    background-color: var(--international-orange-aerospace);
     margin-block-start: 0em;
     margin-block-end: 0.3em;
+}
+
+.recipe-asia {
+    background-color: var(--international-orange-aerospace);
 }
 
 .recipe-card-content {
