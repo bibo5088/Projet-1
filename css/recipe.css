@@ -11,9 +11,18 @@
     height: auto;
 }
 
+.recipe-pic-card {
+    margin-left: 15%;
+}
+
 @media only screen and (min-width: 961px) {
     .recipe-pic {
         max-width: 50%;
+    }
+
+    .recipe-pic-card {
+        margin-left: 15%;
+        max-width: 100%;
     }
 }
 
@@ -63,7 +72,6 @@
         margin-bottom: 20px;
     }
 }
-
 
 .ingredients-card {
     display: flex;
