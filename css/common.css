@@ -112,71 +112,33 @@ img {
   color: var(--text-black);
 }
 /*ci dessous la classe pour contenir un block de contenu et celle qui se rajoute pour ceux qui sont dans un lien*/
-.content-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 97%;
-  padding: 4.85rem 1.35rem;
-  transition: all 0.7s ease-in-out;
+.content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 5rem 1.5rem;
+    transition: all 0.7s ease-in-out;
 }
-.clickable:hover {
-  cursor: pointer;
-  transform: scale(1.1);
+.clickable:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
-
-img {
-  width: 70%;
-  height: 150px;
-  margin: 1.5rem auto;
-}
-
-.bg-orange {
-  background-color: var(--international-orange-aerospace);
-}
-
-.bg-citron {
-  background-color: var(--citron);
-}
-
-.bg-yellow {
-  background-color: var(--orange-yellow);
-}
-
-.bg-mariegold {
-  background-color: var(--mariegold);
-}
-
-.bg-rust {
-  background-color: var(--rust);
-}
-
-.main-container {
-  display: flex;
-  flex: 1 0 auto;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 100%;
-  margin: auto;
-  background-color: var(--background-white);
-}
-
-.content-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  width: 100%;
-  padding: 5rem 1.5rem;
+.signature{
+    text-align: left;
+    font-style:italic;
+    font-size: 1.2rem;
+    margin:0 auto 0 0;
 }
 
 @media only screen and (min-width: 961px) {
-  html {
-    font-size: 14px;
-  }
-  .main-container {
-    max-width: 900px;
-  }
-  .content-container {
-    padding: 5rem;
-  }
+    html{
+        font-size: 18px;
+    }
+    .main-container{
+        max-width: 900px;
+    }
+    .content-container{
+        padding: 5rem;
+    }
 }
