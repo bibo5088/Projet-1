@@ -1,113 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PROJET 1</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Christophe CASTAN</h2>
+    <p>Amoureux de ma région et passionné de cuisine, je vous donne tous mes secrets de cuisine, sans détour. 
+        Je cherche à rendre hommage aux traditions, de la brandade de Nîmes à la fougasse d'Aigues-Mortes.
+        Sommelier de métier, je vous fais partager tout au long de ce site, mes vins préférés et les plus appropriés pour apprécier pleinement chaque recette.
+        Comme l'a si bien dit Julia Child "On ne peut avoir de culture gastronomique sans vin." 
+    </p>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+    <h2>La gardiane de taureau à la Vauverdoise</h2>
+    <img src="https://i0.wp.com/www.terroir-evasion.com/wp-content/uploads/2014/07/Recette-La-Gardiane-de-Taureau-2.jpg?w=713&ssl=1" alt="photo d'une assiete de gardiane de taureau">
+<p>La Gardiane de Taureau est le plat typique de Camargue. Simple à réaliser, un joyeux plat accompagné de riz de camargue, bien sûr, un régal aux saveurs du Sud!</p>
 
-  <body>
-    <header>
-      <h1 class="header-title">Les papilles voyageuses</h1>
+<h2>La véritable brandade de morue nîmoise</h2>
+<img src="https://www.academiedugout.fr/images/16991/501-307/fotolia_53452032_subscription_xl.jpg?poix=50&poiy=50" alt=" photo plat de brandade de morue">
+<p>La Brandade est une spécialité de Nîmes à base de morue ou plus précisément de merluche qui était le nom donné au merlu
+salé et séché, un poisson pêché en Méditerranée, avant de devenir le nom local de la morue.
+La Brandade de morue est une pâte de couleur blanche composée de morue, d’huile d’olive et de lait. Cette pâte pourra ensuite être agrémentée d’ingrédients divers qui ne
+font pas partie de la composition de base, même si les débats sont nombreux quant à l’incorporation ou non d’ail dans la
+brandade. Dans tous les cas, la pâte ne comporte pas de pommes de terre.</p>
 
-      <nav>
-        <button id="nav-button" class="nav-button" aria-label="Open the navbar">
-          <span class="icon-menu" aria-hidden="true"></span>
-        </button>
-        <ul id="nav-list" class="nav-list">
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Accueil</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Articles</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Cuisine blabla</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">À propos</a>
-          </li>
-          <li class="nav-list-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!--Ici commence la recette-->
-    <section class="main-container">
-      <h2>Churrasco de poulet aux arachides</h2>
-      <img src="img/churrasco-titre.JPG" id= "" alt="Photo de churrasco de poulet"/>
-      <article class="content-container">
-        <p class="signature">par Floran</p>
-        <p>À une époque où les échanges entre les différents pays du monde sont permanents, nos cultures se mélangent sur de nombreux points. La cuisine fait probablement partie  des domaines qui ont été le plus influencés par cette dynamique, de la haute gastronomie qui mêle les influences des quatre coins du globe à nos petites cuisines domestiques avec des placards remplis d’épices, de condiments, de fruits ou de légumes que nos ancêtres n’avaient jamais vus sous leurs latitudes.
-          Pourtant, certains aliments sont présents un peu partout sur Terre depuis plus longtemps, des siècles parfois.</p>
-        <p>C’est le cas du poulet. Chacun a sa façon de le cuisiner mais, que ce soit en France, en Chine, au Sénégal ou au Brésil, le brave volatile est présent dans toutes les assiettes. Et c’est justement au pays de la samba, du carnaval et du « joga bonito » que nous transporte notre recette du jour : churrasco de poulet aux arachides, comprenez des grillades. Mais pas n’importe quelles grillades puisque ce sera l’occasion de faire découvrir à votre palais une explosion de saveurs épicées et acidulées. C’est parti pour les « sabores do Brazil » !</p>
-      </article>
-      <article class="content-container recipe-ingredients">
-        <h3>Ingrédients pour quatre personnes</h3>
-        <ul>
-          <li>700g de filet de poulet</li>
-          <li>1 cuillère à soupe de sauce chili</li>
-          <li>3 cl de mélasse</li>
-          <li>2 cuillères à soupe de sauce soja</li>
-          <li>2 cuillères à soupe de vinaigre de miel</li>
-          <li>1/3 de concombre</li>
-          <li>3cm de racine de gingembre</li>
-          <li>6 cuillères à soupe de jus de citron vert</li>
-          <li>70g de cacahuètes natures</li>
-          <li>1/2 botte de coriandre</li>
-          <li>1 cuillère à café de sauce Worcestershire</li>
-        </ul>
-      </article>
-      <article class="content-container">
-        <p>Comme dans toute bonne grillade, la viande va d’abord devoir être marinée. Alors commencez par préparer cette marinade.Pelez et râpez le gingembre, mélangez-le dans un plat creux avec la sauce soja, la mélasse, le vinaigre de miel et la sauce chili. Puis découpez les filets de poulet dans la longueur en trois larges lanières et mettez le dans le mélange pour qu’il marie au moins 30 minutes au réfrigérateur.</p>
-        <img src="img/churrasco-gingembre.jpg" id= "" alt="Photo de gingembre"/>
-        <img src="img/churrasco-marinade.jpg" id= "" alt="Photo de marinade"/>
-      </article>
-      <article class="content-container bg-yellow">
-        <p>Autre point fort de la saveur de ce plat : la sauce. Commencez par préchauffer le four à 150°C. Dispersez les cacahuètes sur une plaque recouverte de papier sulfurisé ou, mieux, d’une feuille de cuisson réutilisable, et enfournez 10 à 15 minutes jusqu’à ce qu’elles soient bien grillées. Ciselez la coriandre et mélangez-la avec le jus de citron, la sauce Worcestershire et les cacahuètes concassées.</p>
-        <img src="img/churrasco-citrons.JPG" id= "" alt="Photo de citrons"/>
-      </article>
-      <article class="content-container">
-        <p>Au dernier moment, sur votre barbecue ou, à défaut, dans votre four en mode grill, embrochez chaque morceau de poulet sur une pique, dans le sens de la longueur, et faites-les griller trois à cinq minutes de chaque côté, selon le mode de cuisson choisi. Pendant ce temps, réalisez des rubans de concombre à l’aide d’un économe, sans aller jusqu’au coeur.</p>
-        <img src="img/churrasco-dressage.JPG" id= "" alt="Photo du dressage du plat"/>
-      </article>
-      <article class="content-container wine-advices">
-        <h3>Le conseil du sommelier</h3>
-        <p>Le churrasco de poulet aux arachides se marie parfaitement avec du vin rouge “jeune” ou “vieux” comme un bon Mâcon, un Sancerre ou encore un Graves.</p>
-      </article>
-      <article class="content-container">
-        <p>Servez vos brochettes accompagnées de riz blanc, des rubans de concombre et de sauce cacahuètes-citron.</p>
-        <img src="img/churrasco-assiette.JPG" id= "" alt="Photo du plat"/>
-      </article>
-    </section>
-    <!--Ici se termine la recette-->
-
-    <!--Ici commence le footer-->
-    <footer>
-      <ul id="links">
-        <li><a href="">Accueil</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Qui sommes-nous ?</a></li>
-      </ul>
-      <ul id="socialMedias">
-        <li>
-          <a href=""><span class="icon-facebook2"></span></a>
-        </li>
-        <li>
-          <a href=""><span class="icon-twitter"></span></a>
-        </li>
-        <li>
-          <a href=""><span class="icon-instagram"></span></a>
-        </li>
-      </ul>
-    </footer>
-
-    <!--Ici se termine le footer-->
-
-    <script src="js/navbar.js"></script>
-  </body>
+<h2>Les oreillettes provençales</h2>
+<img src="https://lh3.googleusercontent.com/proxy/gBl30Qlqb0gi4wCWotc9YyEu7XM1jiJH60Vqu-PWt3yHtwJ_9BXcEXmD1xsC3ZoXnZrN1rBHpJmzmas5JQDHeS1jL9vgN0cM0Qn0VuX9xb2jWmOk0muR1xaH-m_wrqA3IHidwqo" alt="photo d'assietes d'oreillettes">
+<p>Une recette traditionnelles en Provence. Mieux vaut être deux pour la réaliser : une personne qui fait frire et une autre qui passe les oreillettes dans le sucre en poudre et les dispose sur du papier absorbant.</p>
+</body>
 </html>
