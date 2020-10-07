@@ -18,8 +18,20 @@
   transition: color 0.25s ease;
 }
 
-.recipe-preview:hover {
+.recipe-preview:hover.europe {
+  color: var(--rust);
+}
+
+.recipe-preview:hover.asia {
   color: var(--international-orange-aerospace);
+}
+
+.recipe-preview:hover.america {
+  color: var(--orange-yellow);
+}
+
+.recipe-preview:hover.africa {
+  color: var(--mariegold);
 }
 
 .recipe-preview-link {
@@ -27,6 +39,56 @@
 
   color: inherit;
   text-decoration: none;
+}
+
+/* recipe pill */
+.recipe-preview-pill {
+  padding: 0.1em;
+  border-radius: 10em;
+  border-style: solid;
+  border-width: 2px;
+
+  color: var(--text-black);
+  text-align: center;
+
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.recipe-preview.europe .recipe-preview-pill {
+  border-color: var(--rust);
+}
+
+.recipe-preview.asia .recipe-preview-pill {
+  border-color: var(--international-orange-aerospace);
+}
+
+.recipe-preview.america .recipe-preview-pill {
+  border-color: var(--orange-yellow);
+}
+
+.recipe-preview.africa .recipe-preview-pill {
+  border-color: var(--mariegold);
+}
+
+/* recipe pill hover */
+.recipe-preview:hover .recipe-preview-pill {
+  color: white;
+}
+
+.recipe-preview:hover.europe .recipe-preview-pill {
+  background-color: var(--rust);
+}
+
+.recipe-preview:hover.asia .recipe-preview-pill {
+  background-color: var(--international-orange-aerospace);
+}
+
+.recipe-preview:hover.america .recipe-preview-pill {
+  background-color: var(--orange-yellow);
+}
+
+.recipe-preview:hover.africa .recipe-preview-pill {
+  background-color: var(--mariegold);
 }
 
 .recipe-preview-image {
@@ -74,10 +136,10 @@
   .recipe-preview-long {
     display: grid;
     grid-template-areas:
-      "title title"
-      "image description";
+      "title title pill"
+      "image description description";
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
 
     align-items: center;
 
@@ -86,9 +148,16 @@
 
   .recipe-preview-long .recipe-preview-title {
     grid-area: title;
-    
+
+    min-height: unset;
+
     text-align: left;
   }
+
+  .recipe-preview-long .recipe-preview-pill {
+    grid-area: pill;
+  }
+
 
   .recipe-preview-long .recipe-preview-image {
     grid-area: image;
