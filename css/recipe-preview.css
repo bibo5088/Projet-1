@@ -18,8 +18,20 @@
   transition: color 0.25s ease;
 }
 
-.recipe-preview:hover {
+.recipe-preview:hover.europe {
+  color: var(--rust);
+}
+
+.recipe-preview:hover.asia {
   color: var(--international-orange-aerospace);
+}
+
+.recipe-preview:hover.america {
+  color: var(--orange-yellow);
+}
+
+.recipe-preview:hover.africa {
+  color: var(--mariegold);
 }
 
 .recipe-preview-link {
@@ -86,7 +98,7 @@
 
   .recipe-preview-long .recipe-preview-title {
     grid-area: title;
-    
+
     text-align: left;
   }
 
