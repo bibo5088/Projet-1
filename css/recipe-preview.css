@@ -136,10 +136,10 @@
   .recipe-preview-long {
     display: grid;
     grid-template-areas:
-      "title title"
-      "image description";
+      "title title pill"
+      "image description description";
     grid-template-rows: auto 1fr;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
 
     align-items: center;
 
@@ -149,8 +149,15 @@
   .recipe-preview-long .recipe-preview-title {
     grid-area: title;
 
+    min-height: unset;
+
     text-align: left;
   }
+
+  .recipe-preview-long .recipe-preview-pill {
+    grid-area: pill;
+  }
+
 
   .recipe-preview-long .recipe-preview-image {
     grid-area: image;
