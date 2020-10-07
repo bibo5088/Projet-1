@@ -56,14 +56,17 @@
         
         <article class="wine-advices">
           <h4>Le conseil du sommelier :</h4>
-            <p>Ce plat s'accorderait très bien avec un vin </p> <!--Ajouter le vin ici-->
+            <p>La sauce des lasagnes demande des vins rouges parfumés. Choisir en priorité un vin rouge à base du cépage Gamay, qui donne des vins au fruité éclatant, dotés de tanins légers et savoureux. Avec les appelations Beaujolais, Beaujolais-village et Mâcon, il n’y a que l’embarras du choix.</p>
         </article>
       </div>
 
       <article class="recipe-card">
         <h3 class="recipe-card-header recipe-europe">La recette</h3>
         <div class="recipe-card-content">
-            <p><strong>Recette proposée par Corentin</strong></p>
+          <strong
+          >Recette proposée par
+          <a class="author-link" href="/author/corentin.html">Corentin</a></strong
+        > 
             <p>Dans une poêle à grands bords, faites revenir la viande hachée dans l'huile chaude. Une fois que la viande est cuite, rajoutez la sauce tomate. Salez et poivrez à votre goût puis mélangez bien.
             <strong>Si la sauce est trop acide, vous pouvez rajouter un peu de sucre.</strong>
             Couvrez et laissez mijoter en remuant de temps en temps.</p>
@@ -82,6 +85,41 @@
       </article>
       <img src="/img/lasagne-plat.jpg" class="recipe-pic recipe-pic-card"
       alt="Photo de lasagnes dans un plat" />
+
+      <article class="comment-card">
+        <h3 class="comment-card-header">
+          Un commentaire sur cette recette ?
+        </h3>
+
+        <form class="comment-card-form">
+          <div>
+            <label for="name">Votre nom</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="message" >Votre commentaire</label>
+            <textarea name="message" id="yourcomment"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="comments-button">
+              <b>Envoyer votre commentaire</b>
+            </button>
+          </div>
+        </form>
+
+        <section class="comment-card-content">
+          <img
+            class="comment-pic"
+            src="http://placekitten.com/g/60/80"
+            alt="Une photo de petit chaton"
+          />
+
+          <div class="comment-body">
+            <h4 class="comment-name">Anne Royer</h4>
+            <p class="comment">Testée et approuvée par mon mari et mes enfants! Ils en redemandent tous les jours...</p>
+          </div>
+        </section>
+      </article>
     </section>
   </main>
   <!--Ici se termine la recette-->

@@ -69,7 +69,10 @@
       <article class="recipe-card">
         <h3 class="recipe-card-header recipe-europe">La recette</h3>
         <div class="recipe-card-content">
-            <p><strong>Recette proposée par Christophe</strong></p> 
+            <strong
+                >Recette proposée par
+                <a class="author-link" href="/author/christophe.html">Christophe</a></strong
+              > 
             <p>Préchauffez le four à 180°c (thermostat 6). Mélangez les oeufs et le sucre en poudre.</p> 
             <p>Ajoutez la crème fraîche, la farine, la fleur d'oranger ainsi que la levure. <strong>Mélangez bien le tout.</strong></p>
             <p>Enfournez pendant 30 minutes, et pendant ce temps, faites fondre le beurre avec le sucre restant.</p>
@@ -80,6 +83,50 @@
       </article>
       <img src="/img/fougasse-plat.jpg" class="recipe-pic"
       alt="Photo de fougasse dans un plat"/>
+      <article class="comment-card">
+        <h3 class="comment-card-header">
+          Un commentaire sur cette recette ?
+        </h3>
+
+        <form class="comment-card-form">
+          <div>
+            <label for="name">Votre nom</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="message" >Votre commentaire</label>
+            <textarea name="message" id="yourcomment"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="comments-button">
+              <b>Envoyer votre commentaire</b>
+            </button>
+          </div>
+        </form>
+
+        <section class="comment-card-content">
+          <img
+            class="comment-pic"
+            src="http://placekitten.com/g/80/60"
+            alt="Une photo de petit chaton"
+          />
+
+        <div class="comment-body">
+          <h4 class="comment-name">Phillipa Cantin</h4>
+          <p class="comment">On doit mettre 150g de sucre ou moins, du coup?</p>
+          <section class="comment-card-content">
+            <img
+                  class="comment-pic"
+                  src="http://placekitten.com/g/80/50"
+                  alt="Une photo de petit chaton"
+            />
+      
+            <div class="comment-body">
+                <h4 class="comment-name">Julien Desruisseaux</h4>
+                <p class="comment">J'ai testé avec 125g de sucre et 25g pour la préparation à mettre dessus; nickel !</p>
+        </div>
+        </section>
+      </article>
     </section>
   </main>
   <!--Ici se termine la recette-->
