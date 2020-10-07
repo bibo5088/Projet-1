@@ -1,6 +1,7 @@
 .recipe-preview-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   text-align: center;
 }
@@ -49,6 +50,10 @@
 
   .recipe-preview {
     width: 50%;
+  }
+
+  .recipe-preview-title {
+    min-height: 2.5em;
   }
 
   .recipe-preview-description {
