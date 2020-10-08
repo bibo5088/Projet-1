@@ -5,8 +5,6 @@ form {
   margin: 0 auto;
   max-width: 400px;
   border: none;
-  /*encadré pour voir les limites du formulaire*/
-  border-radius: 1em;
 }
 
 form p {
