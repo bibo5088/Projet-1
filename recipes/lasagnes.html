@@ -35,16 +35,16 @@
       </div>
       <div class="middle-wrapper">
         <article class="ingredients-card">
-          <h3 class="ingredients-card-header ingredients-europe">Les ingrédients</h3>
+          <h3 class="ingredients-card-header ingredients-europe">Les ingrédients (pour <input id="recipePeople" type="number" max="20" min="1" data-base="4" size=3> personnes)</h3>
           <div class="ingredients-card-content">
           <ul>
-            <li>500g de viande hachée</li>
-            <li>1L de sauce ou coulis de tomate</li>
-            <li>Huile d'olives</li>
+            <li><span class="quantities" data-quantity="500">500</span>g de viande hachée</li>
+            <li><span class="quantities" data-quantity="1">1</span>L de sauce ou coulis de tomate</li>
+            <li>Huile d'olive</li>
 
-            <li>0.5L de lait (ou bouillon de poulet)</li>
-            <li>60g de farine</li>
-            <li>40g de beurre (et un peu plus pour le moule)</li>
+            <li><span class="quantities" data-quantity="0.5">0.5</span>L de lait (ou bouillon de poulet)</li>
+            <li><span class="quantities" data-quantity="60">60</span>g de farine</li>
+            <li><span class="quantities" data-quantity="40">40</span>g de beurre (et un peu plus pour le moule)</li>
             <li>Noix de muscade</li>
 
             <li>Pâtes à lasagne</li>
@@ -137,7 +137,8 @@
     </ul>
   </footer>
 
-  <script src="js/navbar.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/recipe.js"></script>
 </body>
 
 </html>
