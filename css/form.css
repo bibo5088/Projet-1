@@ -1,47 +1,36 @@
-
-form {
-  background-color: rgba(255, 232, 211, 0.7);
-  padding: 1em;
-  margin: 0 auto;
-  max-width: 400px;
-  border: none;
-}
-
-form p {
-  width: 280px;
-}
-
 label{
-  margin-top: 20px;
   display: block;
-  /* width: ; */
+  margin-top: 20px;
   text-align: left;
 }
 
 input, textarea {
-  font: 1em sans-serif;
-  background-color: #fff;
+  box-sizing: border-box;
+  width: 200px;
   padding: 3px;
+  font: 1em sans-serif;
+  cursor: pointer;
+  background-color: #fff;
   border: 1px solid black;
   border-radius: 5px;
-  width: 200px;
   box-shadow: 1px 1px 2px #C0C0C0 inset;
-  cursor: pointer;
-  box-sizing: border-box;
 }
 
-#contactForm{
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: left;
+  border: none;
 }
 
 textarea {
-  vertical-align: top;
-  height: 5em;
+  width: 250px;
+  height: 120px;
 }
 
-.button {
+#msg-button {
   display: flex;
   cursor: pointer;
 }
 
-@media only screen and (min-width:961px){}

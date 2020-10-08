@@ -113,10 +113,10 @@ img {
 }
 /*ci dessous la classe pour contenir un block de contenu et celle qui se rajoute pour ceux qui sont dans un lien*/
 .content-container{
-    width: 100%;
     display: flex;
-    justify-content: center;
     flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
     padding: 5rem 1.5rem;
     transition: all 0.7s ease-in-out;
 }
@@ -125,10 +125,10 @@ img {
     transform: scale(1.1);
 }
 .signature{
-    text-align: left;
-    font-style:italic;
-    font-size: 1.2rem;
     margin:0 auto 0 0;
+    font-size: 1.2rem;
+    font-style:italic;
+    text-align: left;
 }
 
 @media only screen and (min-width: 961px) {
