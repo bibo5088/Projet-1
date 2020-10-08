@@ -15,6 +15,9 @@ input, textarea {
   border-radius: 5px;
   box-shadow: 1px 1px 2px #C0C0C0 inset;
 }
+input:hover, textarea:hover{
+  cursor:text;
+}
 
 #contactForm {
   display: flex;
@@ -29,8 +32,7 @@ textarea {
   height: 120px;
 }
 
-#msg-button {
-  display: flex;
-  cursor: pointer;
+.msg-button {
+  cursor: pointer !important;
 }
 
