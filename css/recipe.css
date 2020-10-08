@@ -216,9 +216,17 @@
 }
 
 .comment-card-form {
+    width: 90%;
     display: block;
     background-color: rgba(255, 251, 247, 0.7);
     border: none;
+}
+
+@media only screen and (min-width: 961px) {
+    .comment-card-form {
+        padding-left: 30%;
+    }
+    
 }
 
 #yourcomment {
