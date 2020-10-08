@@ -62,7 +62,10 @@
       <article class="recipe-card">
         <h3 class="recipe-card-header recipe-asia">La recette</h3>
         <div class="recipe-card-content">
-          <p><strong>Recette proposée par Corentin</strong></p>
+          <strong
+                >Recette proposée par
+                <a class="author-link" href="/author/corentin.html">Corentin</a></strong
+              > 
           <p>Dans une poêle à grand bords (style wok), faites chauffer l'huile de sésame.<br> Lorsque l'huile est
             chaude,
             ajoutez les morceaux de poulet et laissez dorer.</p>
@@ -77,6 +80,40 @@
           <img src="/img/wok-poulet2.jpg" class="recipe-pic recipe-pic-card"
             alt="Photo de wok au poulet et aux légumes servi dans une assiette" />
         </div>
+      </article>
+      <article class="comment-card">
+        <h3 class="comment-card-header">
+          Un commentaire sur cette recette ?
+        </h3>
+
+        <form class="comment-card-form">
+          <div>
+            <label for="name">Votre nom</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="message" >Votre commentaire</label>
+            <textarea name="message" id="yourcomment"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="comments-button">
+              <b>Envoyer votre commentaire</b>
+            </button>
+          </div>
+        </form>
+
+        <section class="comment-card-content">
+          <img
+            class="comment-pic"
+            src="http://placekitten.com/g/50/80"
+            alt="Une photo de petit chaton"
+          />
+
+          <div class="comment-body">
+            <h4 class="comment-name">Delphine Rochon</h4>
+            <p class="comment">ça me rappelle des souvenirs de voyage tout ça...</p>
+          </div>
+        </section>
       </article>
     </section>
   </main>

@@ -63,7 +63,10 @@
       <article class="recipe-card">
         <h3 class="recipe-card-header recipe-america">La recette</h3>
         <div class="recipe-card-content">
-          <p><strong>Recette proposée par Floran</strong></p>
+          <strong
+                >Recette proposée par
+                <a class="author-link" href="/author/floran.html">Floran</a></strong
+              >
           <p>Comme dans toute bonne grillade, la viande va d’abord devoir être marinée. Alors commencez par préparer cette marinade; pelez et râpez le gingembre, mélangez-le dans un plat creux avec la sauce soja, la mélasse, le vinaigre de miel et la sauce chili. Puis <strong>découpez les filets de poulet dans la longueur en trois larges lanières et mettez le dans le mélange pour qu’il marie au moins 30 minutes</strong> au réfrigérateur.</p>
           <img src="/img/churrasco-gingembre.jpg" class="recipe-pic recipe-pic-card" alt="Photo de gingembre"/>
           <img src="/img/churrasco-marinade.jpg" class="recipe-pic recipe-pic-card" alt="Photo de la marinade"/>
@@ -76,6 +79,40 @@
           <img src="/img/churrasco-assiette.jpg" class="recipe-pic recipe-pic-card" alt="Photo du plat"/>
           
         </div>
+      </article>
+      <article class="comment-card">
+        <h3 class="comment-card-header">
+          Un commentaire sur cette recette ?
+        </h3>
+
+        <form class="comment-card-form">
+          <div>
+            <label for="name">Votre nom</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="message" >Votre commentaire</label>
+            <textarea name="message" id="yourcomment"></textarea>
+          </div>
+          <div>
+            <button type="submit" id="comments-button">
+              <b>Envoyer votre commentaire</b>
+            </button>
+          </div>
+        </form>
+
+        <section class="comment-card-content">
+          <img
+            class="comment-pic"
+            src="http://placekitten.com/g/80/90"
+            alt="Une photo de petit chaton"
+          />
+
+          <div class="comment-body">
+            <h4 class="comment-name">Louise Lamothe</h4>
+            <p class="comment">Hmmmm! Ca donne faim!</p>
+          </div>
+        </section>
       </article>
     </section>
   </main>
