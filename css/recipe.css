@@ -288,4 +288,7 @@
         padding-right: 10%;
         padding-left: 10%;
     }
-}   
+}
+#recipePeople{
+    width: 3rem;
+}
