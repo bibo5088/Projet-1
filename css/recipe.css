@@ -83,10 +83,10 @@
 }
 
 #recipePeople {
-    background-color: rgba(255, 251, 247, 0.856);
+    max-width: 40%;
     margin-top: 8px;
     margin-right: 5px;
-    max-width: 40%;
+    background-color: rgba(255, 251, 247, 0.856);
     outline: none;
 }
 
