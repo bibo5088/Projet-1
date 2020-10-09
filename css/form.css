@@ -25,6 +25,8 @@ input:hover, textarea:hover{
   align-items: center;
   text-align: left;
   border: none;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 textarea {
