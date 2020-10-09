@@ -82,6 +82,14 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+#recipePeople {
+    background-color: rgba(255, 251, 247, 0.856);
+    margin-top: 8px;
+    margin-right: 5px;
+    max-width: 40%;
+    outline: none;
+}
+
 .recipe-content .middle-wrapper .ingredients-card-content {
     padding: 10px;
     line-height: 1.5em;
@@ -216,8 +224,8 @@
 }
 
 .comment-card-form {
-    width: 90%;
     display: block;
+    width: 90%;
     background-color: rgba(255, 251, 247, 0.7);
     border: none;
 }
